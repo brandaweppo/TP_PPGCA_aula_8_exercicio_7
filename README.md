@@ -188,4 +188,4 @@ docker-compose up -d
 ```
 docker-compose ps
 ```
-###### 42. Editar arquivo *html*
+###### 42. Editar arquivo *index.html*
