@@ -1,107 +1,46 @@
-<!-- Section: form gradient -->
-<section class="form-gradient mb-5">
-
-  <!--Form with header-->
-  <div class="card">
-
-    <!--Header-->
-    <div class="header peach-gradient">
-
-      <div class="row d-flex justify-content-center">
-        <h3 class="white-text mb-0 py-5 font-weight-bold">Fale conosco</h3>
-      </div>
-
-    </div>
-    <!--Header-->
-
-    <div class="card-body mx-4">
-
-      <div class="md-form">
-        <i class="fas fa-user prefix grey-text"></i>
-        <input type="text" id="form104" class="form-control">
-        <label for="form104">Your name</label>
-      </div>
-
-      <div class="md-form">
-        <i class="fas fa-envelope prefix grey-text"></i>
-        <input type="text" id="form105" class="form-control">
-        <label for="form105">Your email</label>
-      </div>
-
-      <div class="md-form">
-        <i class="fas fa-pencil-alt prefix grey-text"></i>
-        <textarea id="form107" class="md-textarea form-control" rows="5"></textarea>
-        <label for="form107">Your message</label>
-      </div>
-
-
-      <!--Grid row-->
-      <div class="row d-flex align-items-center mb-3 mt-4">
-
-        <!--Grid column-->
-        <div class="col-md-12">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html"; charset=UTF-8>
+    <title>Sistema de solicitação</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/boostrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  </head>
+  <body class="w-50 p-20 container align-middle">
+    <div style="width:500px">
+    <div class="card card-image" style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Nature/8-col/img%20(73).jpg');">
+      <div class="text-white rgba-stylish-strong py-5 z-depth-4">
+        <form action="">
           <div class="text-center">
-            <button type="button" class="btn btn-grey btn-rounded z-depth-1a">Send</button>
+            <h3 class="white-text mb-5 mt-4 font-weight-bold text-uppercase"><strong>Sistema de Solicitações</strong> </h3>
           </div>
-        </div>
-        <!--Grid column-->
+          <div class="md-form" style="width:150px"></div>
+            <label for="nome"></label>
+            <input class="form-control" name="nome" placeholder="Digite seu nome">
+          </div>
 
+          <div class="md-form">
+            <span class="align-middle"></span>
+            <label for="assunto"></label>
+            <input class="form-control" name="assunto" placeholder="Digite seu assunto"/>
+          </div>
+
+          <div class="form-group purple-border">
+            <label for="mensagem"></label>
+            <textarea class="form-control" name="mensagem" placeholder="Digite sua mensagem" rows="3"></textarea>
+          </div>
+
+          <div class="row d-flex align-itens-center">
+            <div class="text-center col-md-12 mt-3 mb-2">
+              <button class="btn btn-success btn-block btn-rounded z-depth-1">Enviar</button>
+            </div>
+          </div>
+        </form>
       </div>
-      <!--Grid row-->
     </div>
-
-  </div>
-  <!--/Form with header-->
-
-</section>
-<!-- Section: form gradient -->
-<!-- Section: form dark -->
-<section class="form-dark mb-5">
-
-  <!--Form without header-->
-  <div class="card card-image" style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Nature/8-col/img%20(73).jpg');">
-    <div class="text-white rgba-stylish-strong py-5 px-5 z-depth-4">
-
-      <!--Header-->
-      <div class="text-center">
-        <h3 class="white-text mb-5 mt-4 font-weight-bold text-uppercase"><strong>Fale</strong> <a class="green-text font-weight-bold"><strong>
-              conosco</strong></a></h3>
-      </div>
-
-      <div class="md-form">
-        <input type="text" id="form100" class="form-control">
-        <label for="form100">Your name</label>
-      </div>
-
-      <div class="md-form">
-        <input type="text" id="form101" class="form-control">
-        <label for="form101">Your email</label>
-      </div>
-
-      <div class="md-form">
-        <input type="text" id="form102" class="form-control">
-        <label for="form102">Subject</label>
-      </div>
-
-      <div class="md-form">
-        <textarea id="form103" class="md-textarea form-control" rows="5"></textarea>
-        <label for="form103">Your message</label>
-      </div>
-
-      <!--Grid row-->
-      <div class="row d-flex align-items-center">
-
-        <!--Grid column-->
-        <div class="text-center col-md-12 mt-3 mb-2">
-          <button type="button" class="btn btn-success btn-block btn-rounded z-depth-1">Send</button>
-        </div>
-        <!--Grid column-->
-      </div>
-      <!--Grid row-->
-
-    </div>
-  </div>
-  <!--/Form without header-->
-
-</section>
-<!-- Section: form dark -->
+  <style>
+    <center>
+  </style>
+  </body>
+</html>
