@@ -189,3 +189,5 @@ docker-compose up -d
 docker-compose ps
 ```
 ###### 42. Editar arquivo *index.html*
+
+###### 43. Abrir o navegador de *internet* e verificar se o endereço *"localhost"* está com a interface conforme desenvolvido.
