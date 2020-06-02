@@ -15,4 +15,4 @@ docker-compose ps
 ```
 docker-compose up -d
 ```
-###### 5. Abrir o navegador de *internet* e verificar se o endereço *"localhost"* está com a interface conforme desenvolvido.
+###### 5. Abrir o navegador de *web* e verificar se o endereço *"localhost"* está com a interface conforme desenvolvido.
