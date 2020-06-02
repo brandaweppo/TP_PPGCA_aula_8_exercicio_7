@@ -15,4 +15,5 @@ docker-compose ps
 ```
 docker-compose up -d
 ```
-###### 5. Abrir o navegador de *web* e verificar se o endereço *"localhost"* está com a interface conforme desenvolvido.
+###### 5. Abrir o navegador *web* e verificar se o endereço *"localhost"* está mostrando o formulário conforme a imagem abaixo:
+![img](https://imgur.com/a/TzI73kU)
