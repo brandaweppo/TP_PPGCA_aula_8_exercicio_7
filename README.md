@@ -16,4 +16,4 @@ docker-compose ps
 docker-compose up -d
 ```
 ###### 5. Abrir o navegador *web* e verificar se o endereço *"localhost"* está mostrando o formulário conforme a imagem abaixo:
-<img src="https://ibb.co/SwT0fnS">
+![Captura de Tela (11)](https://user-images.githubusercontent.com/65691783/83581628-c074d580-a515-11ea-850e-6b692173baeb.png)
